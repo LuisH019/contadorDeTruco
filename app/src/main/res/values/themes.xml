@@ -1,0 +1,113 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <!--Green Theme-->
+    <style name="Theme.ContadorDeTruco.Green" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!--Background-->
+        <item name="background">@color/phthalo_green</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lighter_phthalo_green</item>
+        <item name="colorPrimaryVariant">@color/phthalo_green</item>
+        <item name="colorOnPrimary">@color/phthalo_green</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lighter_phthalo_green</item>
+        <item name="colorSecondaryVariant">@color/light_phthalo_green</item>
+        <item name="colorOnSecondary">@color/phthalo_green</item>
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/darker_phthalo_green</item>
+<!--        <item name="colorTertiaryVariant">@color/dark_phthalo_green</item>-->
+        <item name="colorOnTertiary">@color/dark_phthalo_green</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--Purple Theme-->
+    <style name="Theme.ContadorDeTruco.Purple" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!--Background-->
+        <item name="background">@color/phthalo_purple</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lighter_phthalo_purple</item>
+        <item name="colorPrimaryVariant">@color/phthalo_purple</item>
+        <item name="colorOnPrimary">@color/phthalo_purple</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lighter_phthalo_purple</item>
+        <item name="colorSecondaryVariant">@color/light_phthalo_purple</item>
+        <item name="colorOnSecondary">@color/phthalo_purple</item>
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/darker_phthalo_purple</item>
+        <!--        <item name="colorTertiaryVariant">@color/dark_phthalo_purple</item>-->
+        <item name="colorOnTertiary">@color/dark_phthalo_purple</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--Red Theme-->
+    <style name="Theme.ContadorDeTruco.Red" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!--Background-->
+        <item name="background">@color/phthalo_red</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lighter_phthalo_red</item>
+        <item name="colorPrimaryVariant">@color/phthalo_red</item>
+        <item name="colorOnPrimary">@color/phthalo_red</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lighter_phthalo_red</item>
+        <item name="colorSecondaryVariant">@color/light_phthalo_red</item>
+        <item name="colorOnSecondary">@color/phthalo_red</item>
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/darker_phthalo_red</item>
+        <!--        <item name="colorTertiaryVariant">@color/dark_phthalo_red</item>-->
+        <item name="colorOnTertiary">@color/dark_phthalo_red</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--Madeira Theme-->
+    <style name="Theme.ContadorDeTruco.Madeira" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!--Background-->
+        <item name="background">@drawable/background_madeira</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lighter_phthalo_red</item>
+        <item name="colorPrimaryVariant">@color/dark_phthalo_red</item>
+        <item name="colorOnPrimary">@color/phthalo_red</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lighter_phthalo_red</item>
+        <item name="colorSecondaryVariant">@color/phthalo_red</item>
+        <item name="colorOnSecondary">@color/grey</item>
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/black</item>
+        <!--        <item name="colorTertiaryVariant">@color/dark_grey</item>-->
+        <item name="colorOnTertiary">@color/darker_grey</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--Mesa Verde Theme-->
+    <style name="Theme.ContadorDeTruco.Mesa_Verde" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!--Background-->
+        <item name="background">@drawable/background_mesa_de_poker</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lighter_phthalo_red</item>
+        <item name="colorPrimaryVariant">@color/dark_phthalo_red</item>
+        <item name="colorOnPrimary">@color/phthalo_red</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lighter_phthalo_red</item>
+        <item name="colorSecondaryVariant">@color/phthalo_red</item>
+        <item name="colorOnSecondary">@color/grey</item>
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/black</item>
+        <!--        <item name="colorTertiaryVariant">@color/dark_grey</item>-->
+        <item name="colorOnTertiary">@color/darker_grey</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

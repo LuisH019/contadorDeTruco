@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="purple_200">#FFBB86FC</color>-->
+<!--    <color name="purple_500">#FF6200EE</color>-->
+<!--    <color name="purple_700">#FF3700B3</color>-->
+<!--    <color name="teal_200">#FF03DAC5</color>-->
+<!--    <color name="teal_700">#FF018786</color>-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Green Theme-->
+    <color name="phthalo_green">#123524</color>
+    <color name="light_phthalo_green">#005b3a</color>
+    <color name="lighter_phthalo_green">#008a55</color>
+    <color name="dark_phthalo_green">#002d1b</color>
+    <color name="darker_phthalo_green">#002818</color>
+
+    <!--Purple Theme-->
+    <color name="phthalo_purple">#5723ac</color>
+    <color name="light_phthalo_purple">#794fbd</color>
+    <color name="lighter_phthalo_purple">#9a7bcd</color>
+    <color name="dark_phthalo_purple">#3c1878</color>
+    <color name="darker_phthalo_purple">#1c0c38</color>
+
+    <!--Red Theme-->
+    <color name="phthalo_red">#ad0013</color>
+    <color name="light_phthalo_red">#bd3342</color>
+    <color name="lighter_phthalo_red">#ce6671</color>
+    <color name="dark_phthalo_red">#69010c</color>
+    <color name="darker_phthalo_red">#3b0107</color>
+
+    <!--Madeira Theme-->
+    <color name="grey">#4a4a4a</color>
+    <color name="light_grey">#737373</color>
+    <color name="lighter_grey">#adadad</color>
+    <color name="dark_grey">#242424</color>
+    <color name="darker_grey">#171717</color>
+</resources>
