@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         SharedPreferences preferences = getSharedPreferences(THEME_PREFS, MODE_PRIVATE);
-        int themeId = preferences.getInt(SELECTED_THEME, R.style.Theme_ContadorDeTruco_Green);
+        int themeId = preferences.getInt(SELECTED_THEME, R.style.Theme_ContadorDeTruco_Mesa_Verde);
         setTheme(themeId);
 
         super.onCreate(savedInstanceState);
