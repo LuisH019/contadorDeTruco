@@ -8,6 +8,7 @@ import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -285,6 +286,40 @@ public class MainActivity extends AppCompatActivity {
         final Dialog dialog = new Dialog(this);
         dialog.setContentView(R.layout.dialog_select_theme);
 
+        dialog.getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+
+        dialog.findViewById(R.id.buttonMadeiraTheme).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                changeTheme(R.style.Theme_ContadorDeTruco_Madeira);
+                dialog.dismiss();
+            }
+        });
+
+        dialog.findViewById(R.id.buttonMesaVerdeTheme).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                changeTheme(R.style.Theme_ContadorDeTruco_Mesa_Verde);
+                dialog.dismiss();
+            }
+        });
+
+        dialog.findViewById(R.id.buttonDarkTheme).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                changeTheme(R.style.Theme_ContadorDeTruco_Dark);
+                dialog.dismiss();
+            }
+        });
+
+        dialog.findViewById(R.id.buttonLightTheme).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                changeTheme(R.style.Theme_ContadorDeTruco_Light);
+                dialog.dismiss();
+            }
+        });
+
         dialog.findViewById(R.id.buttonGreenTheme).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -309,21 +344,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        dialog.findViewById(R.id.buttonMadeiraTheme).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                changeTheme(R.style.Theme_ContadorDeTruco_Madeira);
-                dialog.dismiss();
-            }
-        });
 
-        dialog.findViewById(R.id.buttonMesaVerdeTheme).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                changeTheme(R.style.Theme_ContadorDeTruco_Mesa_Verde);
-                dialog.dismiss();
-            }
-        });
 
         dialog.show();
     }
@@ -338,16 +359,20 @@ public class MainActivity extends AppCompatActivity {
 
     private String getCurrentThemeName(int themeId) {
         switch (themeId) {
+            case R.style.Theme_ContadorDeTruco_Madeira:
+                return "Madeira";
+            case R.style.Theme_ContadorDeTruco_Mesa_Verde:
+                return "Mesa de Baralho";
+            case R.style.Theme_ContadorDeTruco_Dark:
+                return "Escuro";
+            case R.style.Theme_ContadorDeTruco_Light:
+                return "Claro";
             case R.style.Theme_ContadorDeTruco_Green:
                 return "Verde";
             case R.style.Theme_ContadorDeTruco_Purple:
                 return "Roxo";
             case R.style.Theme_ContadorDeTruco_Red:
                 return "Vermelho";
-            case R.style.Theme_ContadorDeTruco_Madeira:
-                return "Madeira";
-            case R.style.Theme_ContadorDeTruco_Mesa_Verde:
-                return "Mesa de Baralho";
             default:
                 return "Unknown Theme";
         }

@@ -6,6 +6,9 @@
         <!--Background-->
         <item name="background">@color/phthalo_green</item>
 
+        <!--Text-->
+        <item name="android:textColor">@color/white</item>
+
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/lighter_phthalo_green</item>
         <item name="colorPrimaryVariant">@color/phthalo_green</item>
@@ -19,7 +22,7 @@
 <!--        <item name="colorTertiaryVariant">@color/dark_phthalo_green</item>-->
         <item name="colorOnTertiary">@color/dark_phthalo_green</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/phthalo_green</item>
         <!-- Customize your theme here. -->
     </style>
 
@@ -27,6 +30,9 @@
     <style name="Theme.ContadorDeTruco.Purple" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!--Background-->
         <item name="background">@color/phthalo_purple</item>
+
+        <!--Text-->
+        <item name="android:textColor">@color/white</item>
 
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/lighter_phthalo_purple</item>
@@ -41,7 +47,7 @@
         <!--        <item name="colorTertiaryVariant">@color/dark_phthalo_purple</item>-->
         <item name="colorOnTertiary">@color/dark_phthalo_purple</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/phthalo_purple</item>
         <!-- Customize your theme here. -->
     </style>
 
@@ -49,6 +55,9 @@
     <style name="Theme.ContadorDeTruco.Red" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!--Background-->
         <item name="background">@color/phthalo_red</item>
+
+        <!--Text-->
+        <item name="android:textColor">@color/white</item>
 
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/lighter_phthalo_red</item>
@@ -63,7 +72,57 @@
         <!--        <item name="colorTertiaryVariant">@color/dark_phthalo_red</item>-->
         <item name="colorOnTertiary">@color/dark_phthalo_red</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/phthalo_red</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--Dark Theme-->
+    <style name="Theme.ContadorDeTruco.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!--Background-->
+        <item name="background">@color/dark_grey</item>
+
+        <!--Text-->
+        <item name="android:textColor">@color/white</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/grey</item>
+        <item name="colorPrimaryVariant">@color/dark_grey</item>
+        <item name="colorOnPrimary">@color/dark_grey</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/grey</item>
+        <item name="colorSecondaryVariant">@color/grey</item>
+        <item name="colorOnSecondary">@color/dark_grey</item>
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/darker_grey</item>
+        <!--        <item name="colorTertiaryVariant">@color/dark_phthalo_red</item>-->
+        <item name="colorOnTertiary">@color/dark_grey</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/dark_grey</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--Light Theme-->
+    <style name="Theme.ContadorDeTruco.Light" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!--Background-->
+        <item name="background">@color/white</item>
+
+        <!--Text-->
+        <item name="android:textColor">@color/grey</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/even_lighter_grey</item>
+        <item name="colorOnPrimary">@color/lighter_grey</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/lighter_grey</item>
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/even_lighter_grey</item>
+        <!--        <item name="colorTertiaryVariant">@color/dark_phthalo_red</item>-->
+        <item name="colorOnTertiary">@color/lighter_grey</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
         <!-- Customize your theme here. -->
     </style>
 
@@ -72,6 +131,9 @@
         <!--Background-->
         <item name="background">@drawable/background_madeira</item>
 
+        <!--Text-->
+        <item name="android:textColor">@color/white</item>
+
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/lighter_phthalo_red</item>
         <item name="colorPrimaryVariant">@color/dark_phthalo_red</item>
@@ -85,7 +147,7 @@
         <!--        <item name="colorTertiaryVariant">@color/dark_grey</item>-->
         <item name="colorOnTertiary">@color/darker_grey</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/darker_grey</item>
         <!-- Customize your theme here. -->
     </style>
 
@@ -94,6 +156,9 @@
         <!--Background-->
         <item name="background">@drawable/background_mesa_de_poker</item>
 
+        <!--Text-->
+        <item name="android:textColor">@color/white</item>
+
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/lighter_phthalo_red</item>
         <item name="colorPrimaryVariant">@color/dark_phthalo_red</item>
@@ -107,7 +172,7 @@
         <!--        <item name="colorTertiaryVariant">@color/dark_grey</item>-->
         <item name="colorOnTertiary">@color/darker_grey</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/darker_grey</item>
         <!-- Customize your theme here. -->
     </style>
 </resources>

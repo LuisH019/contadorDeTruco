@@ -20,7 +20,7 @@
         android:text="Vitórias"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#ffffff"
+        android:textColor="?attr/android:textColor"
 
 
         android:textSize="14sp"
@@ -45,7 +45,7 @@
         android:text="Equipe 1"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#ffffff"
+        android:textColor="?attr/android:textColor"
 
 
         android:textSize="24sp"
@@ -70,7 +70,7 @@
         android:text="0"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#ffffff"
+        android:textColor="?attr/android:textColor"
 
 
         android:textSize="60sp"
@@ -95,7 +95,7 @@
         android:text="0"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#ffffff"
+        android:textColor="?attr/android:textColor"
 
 
         android:textSize="20sp"
@@ -120,7 +120,7 @@
         android:text="0"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#ffffff"
+        android:textColor="?attr/android:textColor"
 
 
         android:textSize="20sp"
@@ -145,7 +145,7 @@
         android:text="x"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#ffffff"
+        android:textColor="?attr/android:textColor"
 
 
         android:textSize="34sp"
@@ -170,7 +170,7 @@
         android:text="0"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#ffffff"
+        android:textColor="?attr/android:textColor"
 
 
         android:textSize="60sp"
@@ -195,7 +195,7 @@
         android:text="Equipe 2"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#ffffff"
+        android:textColor="?attr/android:textColor"
 
 
         android:textSize="24sp"
@@ -235,7 +235,7 @@
         android:shadowRadius="1"
         android:text="+"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/android:textColor"
         android:textSize="34sp"
         android:textStyle="bold"
         app:backgroundTint="?attr/colorSecondaryVariant"
@@ -271,7 +271,7 @@
         android:fontFamily="sans-serif"
         android:text="-"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/android:textColor"
         android:textSize="34sp"
         android:textStyle="bold"
         app:backgroundTint="?attr/colorOnTertiary"
@@ -310,7 +310,7 @@
         android:shadowRadius="1"
         android:text="+3"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/android:textColor"
         android:textSize="34sp"
         android:textStyle="bold"
         app:backgroundTint="?attr/colorSecondaryVariant"
@@ -348,7 +348,7 @@
         android:shadowRadius="1"
         android:text="+6"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/android:textColor"
         android:textSize="34sp"
         android:textStyle="bold"
         app:backgroundTint="?attr/colorSecondaryVariant"
@@ -386,7 +386,7 @@
         android:shadowRadius="1"
         android:text="+9"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/android:textColor"
         android:textSize="34sp"
         android:textStyle="bold"
         app:backgroundTint="?attr/colorSecondaryVariant"
@@ -425,7 +425,7 @@
         android:shadowRadius="1"
         android:text="+"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/android:textColor"
         android:textSize="34sp"
         android:textStyle="bold"
         app:backgroundTint="?attr/colorSecondaryVariant"
@@ -460,7 +460,7 @@
         android:fontFamily="sans-serif"
         android:text="-"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/android:textColor"
         android:textSize="34sp"
         android:textStyle="bold"
         app:backgroundTint="?attr/colorOnTertiary"
@@ -498,7 +498,7 @@
         android:shadowRadius="1"
         android:text="+3"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/android:textColor"
         android:textSize="34sp"
         android:textStyle="bold"
         app:backgroundTint="?attr/colorSecondaryVariant"
@@ -536,7 +536,7 @@
         android:shadowRadius="1"
         android:text="+6"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/android:textColor"
         android:textSize="34sp"
         android:textStyle="bold"
         app:backgroundTint="?attr/colorSecondaryVariant"
@@ -574,7 +574,7 @@
         android:shadowRadius="1"
         android:text="+9"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/android:textColor"
         android:textSize="34sp"
         android:textStyle="bold"
         app:backgroundTint="?attr/colorSecondaryVariant"
@@ -607,7 +607,7 @@
         android:fontFamily="sans-serif"
         android:text="Zerar"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/android:textColor"
         android:textSize="14sp"
         android:textStyle="bold"
         app:backgroundTint="?attr/colorOnTertiary"
@@ -642,7 +642,7 @@
         android:shadowColor="#000000"
         android:text="Zerar vitórias"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="?attr/android:textColor"
         android:textSize="10sp"
         android:textStyle="bold"
         app:backgroundTint="?attr/colorOnTertiary"
@@ -654,16 +654,52 @@
         app:layout_constraintVertical_bias="0.91" />
 
     <Button
-        android:id="@+id/buttonChangeTheme"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Change Theme"
+        android:id="@+id/shadowButtonChangeTheme"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:background="@drawable/corner_button"
+        android:text="."
+        android:textAlignment="center"
+        android:textColor="?attr/android:textColor"
+        android:textSize="10sp"
+        app:backgroundTint="?attr/colorTertiary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.74" />
+
+    <Button
+        android:id="@+id/buttonChangeTheme"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:background="@drawable/corner_button"
+        android:text="Tema"
+        android:textAlignment="center"
+        android:textColor="?attr/android:textColor"
+        android:textSize="10sp"
+        app:backgroundTint="?attr/colorOnTertiary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.735" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977"
+        app:srcCompat="@drawable/themes" />
 
     <TextView
         android:id="@+id/currentThemeTextView"
@@ -672,7 +708,9 @@
         android:text="Mesa de Baralho"
         android:fontFamily="@font/alata"
         android:textStyle="bold"
-        app:backgroundTint="?attr/colorOnTertiary"
+        android:textColor="?attr/android:textColor"
+        android:background="#00FFFFFF"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.94"
