@@ -136,7 +136,7 @@
 
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/lighter_phthalo_red</item>
-        <item name="colorPrimaryVariant">@color/dark_phthalo_red</item>
+        <item name="colorPrimaryVariant">@color/darker_phthalo_red</item>
         <item name="colorOnPrimary">@color/phthalo_red</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/lighter_phthalo_red</item>
@@ -161,7 +161,7 @@
 
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/lighter_phthalo_red</item>
-        <item name="colorPrimaryVariant">@color/dark_phthalo_red</item>
+        <item name="colorPrimaryVariant">@color/darker_phthalo_red</item>
         <item name="colorOnPrimary">@color/phthalo_red</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/lighter_phthalo_red</item>
@@ -175,4 +175,6 @@
         <item name="android:statusBarColor" tools:targetApi="l">@color/darker_grey</item>
         <!-- Customize your theme here. -->
     </style>
+
+    
 </resources>

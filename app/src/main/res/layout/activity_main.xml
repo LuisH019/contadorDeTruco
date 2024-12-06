@@ -653,63 +653,77 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.91" />
 
-    <Button
-        android:id="@+id/shadowButtonChangeTheme"
-        android:layout_width="77dp"
-        android:layout_height="32dp"
-        android:background="@drawable/corner_button"
-        android:text="."
-        android:textAlignment="center"
-        android:textColor="?attr/android:textColor"
-        android:textSize="10sp"
-        app:backgroundTint="?attr/colorTertiary"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74" />
+<!--    <Button-->
+<!--        android:id="@+id/shadowButtonChangeTheme"-->
+<!--        android:layout_width="77dp"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:background="@drawable/corner_button"-->
+<!--        android:text="."-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="?attr/android:textColor"-->
+<!--        android:textSize="10sp"-->
+<!--        app:backgroundTint="?attr/colorTertiary"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.51"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.74" />-->
 
-    <Button
-        android:id="@+id/buttonChangeTheme"
-        android:layout_width="77dp"
-        android:layout_height="32dp"
-        android:background="@drawable/corner_button"
-        android:text="Tema"
-        android:textAlignment="center"
-        android:textColor="?attr/android:textColor"
-        android:textSize="10sp"
-        app:backgroundTint="?attr/colorOnTertiary"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.735" />
-
-
+<!--    <Button-->
+<!--        android:id="@+id/buttonChangeTheme"-->
+<!--        android:layout_width="77dp"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:background="@drawable/corner_button"-->
+<!--        android:text="Tema"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="?attr/android:textColor"-->
+<!--        android:textSize="10sp"-->
+<!--        app:backgroundTint="?attr/colorOnTertiary"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.735" />-->
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="36dp"
-        android:layout_height="35dp"
+        android:id="@+id/shadowButtonChangeTheme"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.977"
-        app:srcCompat="@drawable/themes" />
+        app:layout_constraintVertical_bias="0.9775"
+        app:srcCompat="@drawable/themes"
+        app:tint="?attr/colorTertiary"/>
+
+    <ImageButton
+        android:id="@+id/buttonChangeTheme"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.040"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+        app:srcCompat="@drawable/themes"
+        app:tint="?attr/android:textColor" />
 
     <TextView
         android:id="@+id/currentThemeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mesa de Baralho"
-        android:fontFamily="@font/alata"
-        android:textStyle="bold"
-        android:textColor="?attr/android:textColor"
         android:background="#00FFFFFF"
+        android:fontFamily="@font/alata"
+        android:text="Mesa de Baralho"
+        android:textColor="?attr/android:textColor"
+        android:textStyle="bold"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

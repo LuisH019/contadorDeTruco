@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     Button plus9Team2;
     Button zerar;
     Button zerarVitorias;
-    Button buttonChangeTheme;
+    ImageButton buttonChangeTheme;
 
     TextView scoreTeam1;
     TextView scoreTeam2;
@@ -66,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         plus9Team2 = (Button) findViewById(R.id.plus9Team2);
         zerar = (Button) findViewById(R.id.zerar);
         zerarVitorias = (Button) findViewById(R.id.zerarVitorias);
-        buttonChangeTheme = (Button) findViewById(R.id.buttonChangeTheme);
+        buttonChangeTheme = (ImageButton) findViewById(R.id.buttonChangeTheme);
 
         scoreTeam1 = (TextView) findViewById(R.id.scoreTeam1);
         scoreTeam2 = (TextView) findViewById(R.id.scoreTeam2);
